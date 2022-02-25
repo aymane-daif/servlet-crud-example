@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+<link rel="stylesheet" href="./style.css">
+<title>Welcome</title>
+</head>
+<body>
+	<div class="container center">
+		<form action="/forum/User" method="POST">
+			
+			<div>
+				<label for="userId">User ID</label>
+				<input type="text" name="userId" id="userId"/>
+			</div>
+			
+			<div class="grid">
+				<div>
+				<label for="prenom">Prénom</label>
+				<input type="text" name="prenom" id="prenom"/>
+			</div>
+			<div>
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom"/>
+			</div>
+			</div>
+			
+			<div>
+				<label for="tel">N°tel</label>
+				<input type="text" name="tel" id="tel"/>
+			</div>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	
+</body>
+</html>

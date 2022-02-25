@@ -1,0 +1,17 @@
+.center {
+	min-height: 100vh;
+    align-items: center;
+    display: grid;
+}
+img{
+	cursor:pointer;
+}
+img[alt="edit"] {
+	margin-right:0.5rem;
+}
+table {
+	 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} 
+form#formEdit{
+	display:none;
+}
